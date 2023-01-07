@@ -3,7 +3,6 @@
 //  Camera Calibration and AugmentedReality
 //  This file contains all the functions used to calibrate the camera,
 //project 3-D objects on the target (AR), overlaying an image on AruCO markers and feature matching using ORB.
-//  Created by Shivani Naik and Pulkit Saharan on 04/11/22.
 //
 
 
