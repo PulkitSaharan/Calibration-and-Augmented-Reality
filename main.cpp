@@ -27,10 +27,10 @@ int main(int argc, char* argv[]) {
     cv::Mat output,aruco_output;
 
     bool patternfound;
-    string calibration_image_path = "/Users/shivaninaik/Documents/MSDAE/Computer Vision/Projects/Project 4/AugmentedReality/AugmentedReality/calibration_images";
-    cv::Mat actual = cv::imread("/Users/shivaninaik/Documents/MSDAE/Computer Vision/Projects/Project 4/AugmentedReality/AugmentedReality/aruco.png");
-    cv::Mat img_1 = cv::imread("/Users/shivaninaik/Documents/MSDAE/Computer Vision/Projects/Project 4/AugmentedReality/AugmentedReality/eiffel1.png");
-    cv::Mat img_2 = cv::imread("/Users/shivaninaik/Documents/MSDAE/Computer Vision/Projects/Project 4/AugmentedReality/AugmentedReality/eiffel2.png");
+    string calibration_image_path = "/Users/Documents/MSDAE/Computer Vision/Projects/Project 4/AugmentedReality/AugmentedReality/calibration_images";
+    cv::Mat actual = cv::imread("/Users/Documents/MSDAE/Computer Vision/Projects/Project 4/AugmentedReality/AugmentedReality/aruco.png");
+    cv::Mat img_1 = cv::imread("/Users/Documents/MSDAE/Computer Vision/Projects/Project 4/AugmentedReality/AugmentedReality/eiffel1.png");
+    cv::Mat img_2 = cv::imread("/Users/Documents/MSDAE/Computer Vision/Projects/Project 4/AugmentedReality/AugmentedReality/eiffel2.png");
    
     // command line argument for obj file
     string obj_path(argv[1]);
